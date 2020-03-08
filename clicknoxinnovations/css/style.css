@@ -75,11 +75,12 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 110px;
+  height: 100px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
+  padding-left: 11em;
   position: fixed;
   left: 0;
   top: 0;
@@ -636,7 +637,7 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 * {box-sizing:border-box}
 
 .wallpaper{
-  margin-top: 10em;
+  margin-top: 9.3em;
   height: 50em;
 }
 .text1{
@@ -655,10 +656,10 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 .slideshow {
   max-width: 2500px;
   position: absolute;
-  margin-top: 1em;
-  margin-left: 140px;
+  margin-top: 0.1em;
+  margin-left: 70px;
   top: 0.1em;
-  width: 1550px;
+  width: 1685px;
   top: 150px;
   bottom: 0.1em;
 }
@@ -697,11 +698,13 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #63d0df;
+  text-shadow: black;
+  font-size: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 5em;
   width: 100%;
   text-align: center;
 }
@@ -720,7 +723,7 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin-top: 48em;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -747,4 +750,12 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#name{
+  max-width: 700px;
+  margin-top: 15em;
+  margin-left: 35em;
+  text-align: center;
+  height: 20em;
 }
