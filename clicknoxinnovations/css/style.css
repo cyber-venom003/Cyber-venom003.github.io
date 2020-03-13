@@ -612,7 +612,7 @@ h6 {
 }
 
 .ch{
-  marign-left: 40px;
+  margin-left: 40px;
   float: left;
 
 }
@@ -698,10 +698,10 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 
 /* Caption text */
 .text {
-  color: #63d0df;
-  text-shadow: black;
+  color: #71b2bb;
+  text-shadow: 2px 2px 2px #0e93aa;
   font-size: 70px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway';
   padding: 8px 12px;
   position: absolute;
   bottom: 5em;
@@ -737,9 +737,9 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
