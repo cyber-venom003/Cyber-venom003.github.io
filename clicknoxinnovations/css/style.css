@@ -765,10 +765,9 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 }
 
 .heading {
-  width: 5em; 
+  width: 15em; 
   height:2em; 
   margin-left: 1em;
-  margin-top: 1em;
   font-size: 55px;
   font-family: 'Raleway';
   color: #79dcf2;
