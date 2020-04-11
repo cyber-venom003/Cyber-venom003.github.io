@@ -2,6 +2,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   background: #021f2c;
@@ -79,7 +82,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 2% 0;
   padding-left: 11em;
   position: fixed;
   left: 0;
@@ -654,19 +657,19 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 }
 /* Slideshow container */
 .slideshow {
-  max-width: 2500px;
+  max-width: 100%;
   position: absolute;
   margin-top: 0.1em;
   margin-left: 70px;
   top: 0.1em;
-  width: 1685px;
+  width: 91.9%;
   top: 150px;
   bottom: 0.1em;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+  display: block;
 }
 
 /* Next & previous buttons */
@@ -705,8 +708,9 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
   padding: 8px 12px;
   position: absolute;
   bottom: 5em;
-  width: 100%;
+  width: 50%;
   text-align: center;
+  margin-left: 25%;
 }
 
 /* Number text (1/3 etc) */
@@ -737,19 +741,19 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: 0}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {opacity: 1}
+  to {opacity: 0}
 }
 
 #name{
@@ -758,4 +762,20 @@ background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, F
   margin-left: 35em;
   text-align: center;
   height: 20em;
+}
+
+.heading {
+  width: 5em; 
+  height:2em; 
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 55px;
+  font-family: 'Raleway';
+  color: #79dcf2;
+  letter-spacing: 1.5px;
+}
+
+.about-paragraph{
+  font-size: 25px;
+  color: #bdfcff;
 }
