@@ -1,0 +1,25 @@
+.widget{
+    background: #18264250;
+    margin-bottom: $rem-val*4;
+}
+
+.widget-header {
+    background: #232a38cc;
+    color: #e8f0ff;
+    padding: $rem-val*0.9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget__subtitle {
+    display: flex;
+    justify-content: space-around;
+    color: #e8f0ff;
+    padding: $rem-val*0.5;
+    font-size: 20px;
+    border-bottom: 1px solid #e8f0ff75;
+}
+
+.widget-header__title{
+    margin: 0;
+}

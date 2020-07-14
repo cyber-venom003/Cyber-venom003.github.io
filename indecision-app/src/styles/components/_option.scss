@@ -1,0 +1,23 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: $rem-val $rem-val*1.5;
+    color: #e8f0ff;
+    font-size: 17.5px;
+    font-weight: 500;
+}
+
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $rem-val*0.5;
+  }
+
+  .add-option__input {
+    background: #0b1a4f;
+    border: none;
+    color: #ebeffc;
+    border-bottom: .3rem solid darken(#0b1a4f, 10%);
+    margin: 0 0 $rem-val*0.5 0;
+    padding: $rem-val*0.5;
+  }
